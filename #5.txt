@@ -1,0 +1,59 @@
+Started by user Syed Ahmed Owais
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GitExample
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/GitExample/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Owais-depaul/DePaul-Cybersecurity-Automation-Test # timeout=10
+Fetching upstream changes from https://github.com/Owais-depaul/DePaul-Cybersecurity-Automation-Test
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/Owais-depaul/DePaul-Cybersecurity-Automation-Test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f207afaa69444ca29b0f7479d4aed9d247b46697 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f207afaa69444ca29b0f7479d4aed9d247b46697 # timeout=10
+Commit message: "Merge pull request #1 from Owais-depaul/Step-B"
+ > git rev-list --no-walk f207afaa69444ca29b0f7479d4aed9d247b46697 # timeout=10
+[GitExample] $ /bin/sh -xe /tmp/jenkins400845956311410289.sh
++ echo Listing files in the repositary:
+Listing files in the repositary:
++ ls -la
+total 20
+drwxr-xr-x 3 jenkins jenkins 4096 Feb 10 19:09 .
+drwxr-xr-x 3 jenkins jenkins 4096 Feb 10 19:04 ..
+drwxr-xr-x 8 jenkins jenkins 4096 Feb 10 19:16 .git
+-rw-r--r-- 1 jenkins jenkins   24 Feb 10 19:09 README.md
+-rw-r--r-- 1 jenkins jenkins  589 Feb 10 19:09 sample_script.py
++ echo Displaying content of sample_script.py
+Displaying content of sample_script.py
++ cat sample_script.py
+# Sample script
+
+def calculate_sum(a, b):
+    """
+    A simple function to calculate the sum of two numbers.
+    """
+    return a + b
+
+def display_sum(a, b):
+    """
+    Display the sum of two numbers.
+    """
+    sum_result = calculate_sum(a, b)
+    print(f"The sum of {a} and {b} is {sum_result}.")
+
+def main():
+    """
+    The main function that runs when the script is executed.
+    """
+    num1 = 5
+    num2 = 7
+
+    print("Starting the placeholder script...")
+    display_sum(num1, num2)
+    print("Script finished.")
+
+if __name__ == "__main__":
+    main()Finished: SUCCESS
