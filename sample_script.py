@@ -24,5 +24,8 @@ def main():
     display_sum(num1, num2)
     print("Script finished.")
 
+def hello_world():
+    return "Hello World!"
+
 if __name__ == "__main__":
     main()
