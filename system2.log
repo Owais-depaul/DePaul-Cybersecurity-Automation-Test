@@ -1,0 +1,23 @@
+<35>Oct 14 12:00:01 server1 sshd[12345]: Failed password for invalid user admin from 192.168.1.101 port 22 ssh2
+<2>Oct 14 12:02:15 server1 kernel: [123456.789012] CPU0: Temperature above threshold, cpu clock throttled
+<29>Oct 14 12:05:30 server2 systemd: Starting Daily Cleanup...
+<30>Oct 14 12:07:45 server3 crond[23456]: (root) CMD (/usr/bin/backup.sh)
+<29>Oct 14 12:10:10 server1 systemd: Started Daily Cleanup.
+<12>Oct 14 12:12:20 server1 networkd-dispatcher: WARNING: No connection found for interface wlan0
+<30>Oct 14 12:15:30 server3 dbus-daemon[34567]: Activating service name='com.example.service' requested by ':1.100'
+<4>Oct 14 13:20:00 server1 kernel: [123490.123456] eth1: Link is Down
+<21>Oct 14 13:30:15 server1 postfix/smtpd[78901]: connect from unknown[192.168.1.103]
+<30>Oct 14 13:35:10 server1 systemd: Started MySQL Database Server.
+<30>Oct 14 14:00:01 server3 systemd: Stopping Daily Cleanup...
+<15>Oct 14 14:05:20 server1 crond[23456]: (root) CMD (/usr/bin/cleanup.sh)
+<30>Oct 14 14:10:00 server1 systemd: Started Daily Cleanup.
+<10>Oct 14 14:15:30 server2 sshd[12345]: Accepted password for user admin from 192.168.1.104 port 22 ssh2
+<30>Oct 14 14:20:00 server1 systemd: Stopping MySQL Database Server...
+<30>Oct 14 14:30:15 server1 systemd: MySQL Database Server stopped.
+<24>Oct 14 14:30:42 webserver nginx[1234]: nginx: [emerg] critical process failure detected
+<4>Oct 14 14:45:30 server1 kernel: [123478.654321] ip_tables: (C) 2000-2006 Netfilter Core Team
+<12>Oct 14 15:00:00 server1 userdel[67890]: Removing user 'newuser'
+<30>Oct 14 15:15:10 server1 systemd: Started Apache Web Server.
+<4>Oct 14 15:20:00 server1 kernel: [123489.123456] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+<30>Oct 14 15:30:15 server1 systemd: Stopping Apache Web Server...
+<30>Oct 14 15:45:00 server1 systemd: Apache Web Server stopped.
