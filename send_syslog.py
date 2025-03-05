@@ -31,3 +31,4 @@ def send_syslog(log_file, host, protocol):
         print(f"Error: {e}")
 
 send_syslog("system2.log", "127.0.0.1", "UDP")  # Change to TCP if needed
+
